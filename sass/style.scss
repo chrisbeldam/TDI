@@ -1,7 +1,7 @@
 
 $contactbg: #004694;
-$aboutbg: #004694;
-$introbg: #ffffff;
+$aboutbg: #ffffff;
+$introbg: #004694;
 $servicesbg: #ffffff;
 $textcolour: white;
 $textcolourinverse: black;
@@ -77,13 +77,20 @@ html {
     overflow:hidden;
 
     h1{
-      color: $textcolourinverse;
+      color: $textcolour;
     }
-    h2 {
-      color: $textcolourinverse;
+    h3 {
+      color: $textcolour;
+    }
+    h4 {
+      color:$textcolour;
     }
     p {
-      color:$textcolourinverse;
+      color:$textcolour;
+    }
+
+    a {
+      color:lightblue;
     }
 
     #firstbtn {
@@ -117,15 +124,15 @@ html {
     background: $aboutbg;
 
     h1{
-      color:$textcolour;
+      color:$textcolourinverse;
     }
 
     h2 {
-      color:$textcolour;
+      color:$textcolourinverse;
     }
 
     p {
-      color:$textcolour;
+      color:$textcolourinverse;
     }
 
     #second-btn {

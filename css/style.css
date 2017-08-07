@@ -46,14 +46,18 @@ html {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
-  background: #ffffff;
+  background: #004694;
   overflow: hidden; }
   .products-section h1 {
-    color: black; }
-  .products-section h2 {
-    color: black; }
+    color: white; }
+  .products-section h3 {
+    color: white; }
+  .products-section h4 {
+    color: white; }
   .products-section p {
-    color: black; }
+    color: white; }
+  .products-section a {
+    color: lightblue; }
   .products-section #firstbtn {
     margin-top: 40px; }
   .products-section .science-img {
@@ -74,13 +78,13 @@ html {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
-  background: #004694; }
+  background: #ffffff; }
   .experience-section h1 {
-    color: white; }
+    color: black; }
   .experience-section h2 {
-    color: white; }
+    color: black; }
   .experience-section p {
-    color: white; }
+    color: black; }
   .experience-section #second-btn {
     margin-top: 40px; }
   .experience-section .img {
@@ -110,18 +114,6 @@ html {
     color: black; }
   .services-section #third-btn {
     margin-top: 40px; }
-  .services-section .img {
-    border-radius: 50%;
-    margin-top: 7px;
-    margin-bottom: 10px; }
-  .services-section .img2 {
-    border-radius: 50%;
-    margin-top: 7px;
-    margin-bottom: 10px; }
-  .services-section .img3 {
-    border-radius: 50%;
-    margin-top: 7px;
-    margin-bottom: 10px; }
 
 .contact-section {
   height: auto;
