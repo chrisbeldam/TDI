@@ -1,9 +1,10 @@
 
-$contactbg: #2980b9;
-$introbg: #6461A0;
-$aboutbg: #B68CB8;
-$servicesbg: #8e44ad;
+$contactbg: #004694;
+$aboutbg: #004694;
+$introbg: #ffffff;
+$servicesbg: #ffffff;
 $textcolour: white;
+$textcolourinverse: black;
 
 body {
     width: 100%;
@@ -67,8 +68,7 @@ html {
   }
 }
 
-
-.intro-section {
+.products-section {
     height: auto;
     padding-top: 5%;
     padding-bottom:5%;
@@ -76,23 +76,36 @@ html {
     background: $introbg;
     overflow:hidden;
 
-    h1 {
-      color: $textcolour;
+    h1{
+      color: $textcolourinverse;
     }
-
+    h2 {
+      color: $textcolourinverse;
+    }
     p {
-      color:$textcolour;
+      color:$textcolourinverse;
     }
 
     #firstbtn {
       margin-top:40px;
     }
 
-    .headshot {
-      border-radius: 50%;
-      margin-top:10px;
-      -webkit-animation-delay: 3s;
-      -webkit-animation-duration: 2s;
+    .science-img {
+      border-radius:50%;
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+    .business-img {
+      border-radius:50%;
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+    .automation-img {
+      border-radius:50%;
+      margin-top: 7px;
+      margin-bottom: 10px;
     }
 }
 
@@ -104,7 +117,11 @@ html {
     background: $aboutbg;
 
 
-    h1 {
+    h1{
+      color:$textcolour;
+    }
+
+    h2 {
       color:$textcolour;
     }
 
@@ -116,24 +133,25 @@ html {
       margin-top:40px;
     }
 
-    .acting-img{
+    .img{
       border-radius:50%;
       margin-top: 7px;
       margin-bottom: 10px;
 
     }
-    .singing-lessons {
+    .img2 {
       border-radius:50%;
       margin-top: 7px;
       margin-bottom: 10px;
     }
 
-    .chichester {
+    .img3 {
       border-radius:50%;
       margin-top: 7px;
       margin-bottom: 10px;
     }
 }
+
 
 .services-section {
     height: auto;
@@ -144,27 +162,31 @@ html {
 
 
     h1 {
-      color:$textcolour;
+      color:$textcolourinverse;
+    }
+
+    h2 {
+      color:$textcolourinverse;
     }
 
     p {
-      color:$textcolour;
+      color:$textcolourinverse;
     }
     #third-btn {
       margin-top:40px;
     }
-    .clarinet-img {
+    .img{
       border-radius:50%;
       margin-top:7px;
       margin-bottom:10px;
     }
-    .acting-img{
+    .img2{
       border-radius:50%;
       margin-top: 7px;
       margin-bottom: 10px;
 
     }
-    .singing-lessons {
+    .img3 {
       border-radius:50%;
       margin-top: 7px;
       margin-bottom: 10px;
@@ -211,4 +233,34 @@ html {
 .email{
   color:white;
   text-decoration: underline;
+}
+
+.contact-us-page {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom:5%;
+  text-align: center;
+  margin-top: 5%;
+
+  h1 {
+    text-align: center;
+    margin-top: 5%;
+    color:$textcolourinverse;
+  }
+
+  h3 {
+    color:$textcolourinverse;
+  }
+
+  h5 {
+    color:$textcolourinverse;
+  }
+
+  p {
+    color:$textcolourinverse;
+  }
+
+  .contact-header {
+    font-size:60px;
+  }
 }
