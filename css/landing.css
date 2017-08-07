@@ -11,8 +11,7 @@
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/hmt.jpg) no-repeat center center;
-  background-size: cover; }
+  background: url(../img/banner.png) center;background-size: cover; }
 
 .intro-message {
   position: relative;
@@ -73,7 +72,7 @@
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background: url(../img/banner-2-bkp.png) no-repeat center center;
   background-size: cover; }
 
 .banner h2 {
