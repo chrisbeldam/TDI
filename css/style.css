@@ -139,6 +139,8 @@ html {
     margin-top: 40px; }
   .contact-section h5 {
     color: white; }
+  .contact-section p {
+    color: white; }
   .contact-section .contact-header {
     font-size: 60px; }
   .contact-section .externalLink {
@@ -148,22 +150,3 @@ html {
 .email {
   color: white;
   text-decoration: underline; }
-
-.contact-us-page {
-  height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  text-align: center;
-  margin-top: 5%; }
-  .contact-us-page h1 {
-    text-align: center;
-    margin-top: 5%;
-    color: black; }
-  .contact-us-page h3 {
-    color: black; }
-  .contact-us-page h5 {
-    color: black; }
-  .contact-us-page p {
-    color: black; }
-  .contact-us-page .contact-header {
-    font-size: 60px; }
