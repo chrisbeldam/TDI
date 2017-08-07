@@ -6,12 +6,11 @@
   font-weight: 400; }
 
 .intro-header {
-  padding-top: 50px;
+  padding-top: 20px;
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/banner.png) center;background-size: cover; }
+  background: url(../img/banner-2-bkp.png) 80%; background-size: cover; }
 
 .intro-message {
   position: relative;
@@ -22,7 +21,7 @@
 .intro-message > h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 5em; }
+  font-size: 3em; }
 
 .intro-divider {
   width: 400px;
