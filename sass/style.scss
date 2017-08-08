@@ -119,6 +119,58 @@ html {
     }
 }
 
+.product-page {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom:5%;
+  text-align: center;
+  background: $aboutbg;
+  overflow:hidden;
+
+  h1{
+    color: $textcolourinverse;
+    font-weight: bold;
+  }
+  h3 {
+    color: $textcolourinverse;
+    font-weight: bold;
+  }
+  h4 {
+    color:$textcolourinverse;
+    font-weight: bold;
+  }
+  p {
+    color:$textcolourinverse;
+  }
+
+  a {
+    color:blue;
+  }
+
+  #firstbtn {
+      margin-top:40px;
+      color:white;
+    }
+
+    .science-img {
+      border-radius:50%;
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+    .business-img {
+      border-radius:50%;
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+    .automation-img {
+      border-radius:50%;
+      margin-top: 7px;
+      margin-bottom: 10px;
+    }
+
+}
 .experience-section {
     height: auto;
     padding-top: 5%;

@@ -76,6 +76,42 @@ html {
     margin-top: 7px;
     margin-bottom: 10px; }
 
+.product-page {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden; }
+  .product-page h1 {
+    color: black;
+    font-weight: bold; }
+  .product-page h3 {
+    color: black;
+    font-weight: bold; }
+  .product-page h4 {
+    color: black;
+    font-weight: bold; }
+  .product-page p {
+    color: black; }
+  .product-page a {
+    color: blue; }
+  .product-page #firstbtn {
+    margin-top: 40px;
+    color: white; }
+  .product-page .science-img {
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-bottom: 10px; }
+  .product-page .business-img {
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-bottom: 10px; }
+  .product-page .automation-img {
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-bottom: 10px; }
+
 .experience-section {
   height: auto;
   padding-top: 5%;
