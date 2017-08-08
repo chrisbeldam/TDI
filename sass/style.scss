@@ -78,12 +78,15 @@ html {
 
     h1{
       color: $textcolour;
+      font-weight: bold;
     }
     h3 {
       color: $textcolour;
+      font-weight: bold;
     }
     h4 {
       color:$textcolour;
+      font-weight: bold;
     }
     p {
       color:$textcolour;
@@ -223,6 +226,40 @@ html {
     }
 }
 
+.technologies-section {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom:5%;
+  text-align: center;
+  background: $contactbg;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color:$textcolour;
+  }
+
+  h3 {
+    color:$textcolour;
+  }
+
+  #contact-btn {
+    margin-top:40px
+  }
+
+  h5 {
+    color:$textcolour;
+  }
+
+  p {
+    color:$textcolour;
+  }
+
+  .list-group {
+    font-size: 22px;
+  }
+
+}
 .email{
   color:white;
   text-decoration: underline;

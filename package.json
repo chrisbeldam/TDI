@@ -1,18 +1,27 @@
 {
-  "name": "beccascss",
+  "name": "tdi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "description": "TDI",
+  "main": "Gulpfile.js",
+  "dependencies": {
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-sass": "^3.1.0",
     "gulp-sequence": "^0.4.6",
-    "gulp-uglify": "^2.0.1"
-  }
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbeldam/TDI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisbeldam/TDI/issues"
+  },
+  "homepage": "https://github.com/chrisbeldam/TDI#readme"
 }

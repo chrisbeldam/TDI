@@ -49,11 +49,14 @@ html {
   background: #004694;
   overflow: hidden; }
   .products-section h1 {
-    color: white; }
+    color: white;
+    font-weight: bold; }
   .products-section h3 {
-    color: white; }
+    color: white;
+    font-weight: bold; }
   .products-section h4 {
-    color: white; }
+    color: white;
+    font-weight: bold; }
   .products-section p {
     color: white; }
   .products-section a {
@@ -138,6 +141,27 @@ html {
   .contact-section .externalLink {
     color: white;
     text-decoration: underline; }
+
+.technologies-section {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #004694; }
+  .technologies-section h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: white; }
+  .technologies-section h3 {
+    color: white; }
+  .technologies-section #contact-btn {
+    margin-top: 40px; }
+  .technologies-section h5 {
+    color: white; }
+  .technologies-section p {
+    color: white; }
+  .technologies-section .list-group {
+    font-size: 22px; }
 
 .email {
   color: white;
