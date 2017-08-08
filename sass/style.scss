@@ -5,7 +5,7 @@ $introbg: #004694;
 $servicesbg: #ffffff;
 $textcolour: white;
 $textcolourinverse: black;
-
+$saira:'Saira', sans-serif;
 body {
     width: 100%;
     height: 100%;
@@ -171,17 +171,21 @@ html {
 
     h1 {
       color:$textcolourinverse;
+      font-family: $saira;
     }
 
     h2 {
       color:$textcolourinverse;
+      font-family: $saira
     }
 
     p {
       color:$textcolourinverse;
+      font-family: $saira;
     }
     #third-btn {
       margin-top:40px;
+      font-family: $saira;
     }
 }
 
@@ -231,16 +235,18 @@ html {
   padding-top: 5%;
   padding-bottom:5%;
   text-align: center;
-  background: $contactbg;
+  background: url(../img/edited_code.png) 80%; background-size: cover;
 
   h1 {
     text-align: center;
     margin-bottom: 5%;
     color:$textcolour;
+    font-family: $saira;
   }
 
   h3 {
     color:$textcolour;
+    font-family: $saira;
   }
 
   #contact-btn {
@@ -249,14 +255,17 @@ html {
 
   h5 {
     color:$textcolour;
+    font-family: $saira;
   }
 
   p {
     color:$textcolour;
+    font-family: $saira;
   }
 
   .list-group {
     font-size: 22px;
+    font-family: 'Saira', sans-serif;
   }
 
 }

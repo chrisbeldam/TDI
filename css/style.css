@@ -110,13 +110,17 @@ html {
   text-align: center;
   background: #ffffff; }
   .services-section h1 {
-    color: black; }
+    color: black;
+    font-family: "Saira", sans-serif; }
   .services-section h2 {
-    color: black; }
+    color: black;
+    font-family: "Saira", sans-serif; }
   .services-section p {
-    color: black; }
+    color: black;
+    font-family: "Saira", sans-serif; }
   .services-section #third-btn {
-    margin-top: 40px; }
+    margin-top: 40px;
+    font-family: "Saira", sans-serif; }
 
 .contact-section {
   height: auto;
@@ -147,21 +151,27 @@ html {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
-  background: #004694; }
+  background: url(../img/edited_code.png) 80%;
+  background-size: cover; }
   .technologies-section h1 {
     text-align: center;
     margin-bottom: 5%;
-    color: white; }
+    color: white;
+    font-family: "Saira", sans-serif; }
   .technologies-section h3 {
-    color: white; }
+    color: white;
+    font-family: "Saira", sans-serif; }
   .technologies-section #contact-btn {
     margin-top: 40px; }
   .technologies-section h5 {
-    color: white; }
+    color: white;
+    font-family: "Saira", sans-serif; }
   .technologies-section p {
-    color: white; }
+    color: white;
+    font-family: "Saira", sans-serif; }
   .technologies-section .list-group {
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'Saira', sans-serif; }
 
 .email {
   color: white;
