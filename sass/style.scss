@@ -36,7 +36,7 @@ html {
       overflow:hidden;
     }
 
-    .experience-section {
+    .about-section {
       padding-top: 5%;
       padding-bottom:5%;
       overflow:hidden;
@@ -70,8 +70,8 @@ html {
 
 .products-section {
     height: auto;
-    padding-top: 5%;
-    padding-bottom:5%;
+    padding-top: 3%;
+    padding-bottom:3%;
     text-align: center;
     background: $introbg;
     overflow:hidden;
@@ -98,6 +98,7 @@ html {
 
     #firstbtn {
       margin-top:40px;
+      color:white !important;
     }
 
     .science-img {
@@ -121,8 +122,8 @@ html {
 
 .product-page {
   height: auto;
-  padding-top: 5%;
-  padding-bottom:5%;
+  padding-top: 3%;
+  padding-bottom:3%;
   text-align: center;
   background: $aboutbg;
   overflow:hidden;
@@ -143,9 +144,6 @@ html {
     color:$textcolourinverse;
   }
 
-  a {
-    color:blue;
-  }
 
   #firstbtn {
       margin-top:40px;
@@ -171,10 +169,10 @@ html {
     }
 
 }
-.experience-section {
+.about-section {
     height: auto;
-    padding-top: 5%;
-    padding-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     background: $aboutbg;
 
@@ -216,45 +214,44 @@ html {
 
 .services-section {
     height: auto;
-    padding-top: 5%;
-    padding-bottom:5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
     background: $servicesbg;
 
     h1 {
       color:$textcolourinverse;
-      font-family: $saira;
     }
 
     h2 {
       color:$textcolourinverse;
-      font-family: $saira
     }
 
     p {
       color:$textcolourinverse;
-      font-family: $saira;
     }
     #third-btn {
       margin-top:40px;
-      font-family: $saira;
     }
 }
 
 .contact-section {
     height: auto;
-    padding-top: 5%;
-    padding-bottom:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     background: $contactbg;
 
     h1 {
       text-align: center;
-      margin-top: 5%;
       color:$textcolour;
     }
 
     h3 {
+      color:$textcolour;
+    }
+
+    h4 {
       color:$textcolour;
     }
 
@@ -284,8 +281,8 @@ html {
 
 .technologies-section {
   height: auto;
-  padding-top: 5%;
-  padding-bottom:5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   background: url(../img/edited_code.png) 80%; background-size: cover;
 

@@ -20,7 +20,7 @@ html {
     padding-top: 5%;
     padding-bottom: 5%;
     overflow: hidden; }
-  .experience-section {
+  .about-section {
     padding-top: 5%;
     padding-bottom: 5%;
     overflow: hidden; }
@@ -43,8 +43,8 @@ html {
 
 .products-section {
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   background: #004694;
   overflow: hidden; }
@@ -62,7 +62,8 @@ html {
   .products-section a {
     color: lightblue; }
   .products-section #firstbtn {
-    margin-top: 40px; }
+    margin-top: 40px;
+    color: white !important; }
   .products-section .science-img {
     border-radius: 50%;
     margin-top: 7px;
@@ -78,8 +79,8 @@ html {
 
 .product-page {
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   background: #ffffff;
   overflow: hidden; }
@@ -94,8 +95,6 @@ html {
     font-weight: bold; }
   .product-page p {
     color: black; }
-  .product-page a {
-    color: blue; }
   .product-page #firstbtn {
     margin-top: 40px;
     color: white; }
@@ -112,63 +111,60 @@ html {
     margin-top: 7px;
     margin-bottom: 10px; }
 
-.experience-section {
+.about-section {
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   text-align: center;
   background: #ffffff; }
-  .experience-section h1 {
+  .about-section h1 {
     color: black; }
-  .experience-section h2 {
+  .about-section h2 {
     color: black; }
-  .experience-section p {
+  .about-section p {
     color: black; }
-  .experience-section #second-btn {
+  .about-section #second-btn {
     margin-top: 40px; }
-  .experience-section .img {
+  .about-section .img {
     border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
-  .experience-section .img2 {
+  .about-section .img2 {
     border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
-  .experience-section .img3 {
+  .about-section .img3 {
     border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
 
 .services-section {
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   background: #ffffff; }
   .services-section h1 {
-    color: black;
-    font-family: "Saira", sans-serif; }
+    color: black; }
   .services-section h2 {
-    color: black;
-    font-family: "Saira", sans-serif; }
+    color: black; }
   .services-section p {
-    color: black;
-    font-family: "Saira", sans-serif; }
+    color: black; }
   .services-section #third-btn {
-    margin-top: 40px;
-    font-family: "Saira", sans-serif; }
+    margin-top: 40px; }
 
 .contact-section {
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   text-align: center;
   background: #004694; }
   .contact-section h1 {
     text-align: center;
-    margin-top: 5%;
     color: white; }
   .contact-section h3 {
+    color: white; }
+  .contact-section h4 {
     color: white; }
   .contact-section #contact-btn {
     margin-top: 40px; }
@@ -184,8 +180,8 @@ html {
 
 .technologies-section {
   height: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   background: url(../img/edited_code.png) 80%;
   background-size: cover; }
