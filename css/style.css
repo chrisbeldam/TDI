@@ -158,7 +158,8 @@ html {
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
-  background: #001335; }
+  background: url(../img/contact.jpg) 80%;
+  background-size: cover; }
   .contact-section h1 {
     text-align: center;
     color: white; }
@@ -167,16 +168,18 @@ html {
   .contact-section h4 {
     color: white; }
   .contact-section #contact-btn {
-    margin-top: 40px; }
+    margin-top: 5px; }
   .contact-section h5 {
     color: white; }
   .contact-section p {
     color: white; }
   .contact-section .contact-header {
     font-size: 60px; }
-  .contact-section .externalLink {
-    color: white;
-    text-decoration: underline; }
+
+.email {
+  color: white;
+  text-decoration: underline;
+  margin-top: 2px; }
 
 .technologies-section {
   height: auto;
@@ -204,7 +207,3 @@ html {
   .technologies-section .list-group {
     font-size: 22px;
     font-family: 'Saira', sans-serif; }
-
-.email {
-  color: white;
-  text-decoration: underline; }

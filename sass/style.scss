@@ -240,7 +240,7 @@ html {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    background: $contactbg;
+    background: url(../img/contact.jpg) 80%; background-size: cover;
 
     h1 {
       text-align: center;
@@ -256,7 +256,7 @@ html {
     }
 
     #contact-btn {
-      margin-top:40px
+      margin-top:5px
     }
 
     h5 {
@@ -271,13 +271,14 @@ html {
       font-size:60px;
     }
 
-    .externalLink {
-
-        color:white;
-        text-decoration:underline;
-
-    }
 }
+
+.email{
+  color:white;
+  text-decoration: underline;
+  margin-top:2px;
+}
+
 
 .technologies-section {
   height: auto;
@@ -317,8 +318,4 @@ html {
     font-family: 'Saira', sans-serif;
   }
 
-}
-.email{
-  color:white;
-  text-decoration: underline;
 }
