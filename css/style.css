@@ -24,6 +24,21 @@ html {
     padding-top: 5%;
     padding-bottom: 5%;
     overflow: hidden; }
+  .products-section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden; }
+    .products-section img {
+      height: 150px !important; }
+    .products-section .science-img {
+      margin-top: 7px;
+      margin-bottom: 10px; }
+    .products-section .business-img {
+      margin-top: 7px;
+      margin-bottom: 10px; }
+    .products-section .automation-img {
+      margin-top: 7px;
+      margin-bottom: 10px; }
   .services-section {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -65,15 +80,12 @@ html {
     margin-top: 40px;
     color: white !important; }
   .products-section .science-img {
-    border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
   .products-section .business-img {
-    border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
   .products-section .automation-img {
-    border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
 
