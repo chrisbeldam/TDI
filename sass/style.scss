@@ -193,6 +193,39 @@ html {
     }
 
 }
+
+.contact-page {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom:3%;
+  text-align: center;
+  background: $contactbg;
+  overflow:hidden;
+
+  h1{
+    color: $textcolourinverse;
+    font-weight: bold;
+  }
+  h3 {
+    color: $textcolourinverse;
+    font-weight: bold;
+  }
+  h4 {
+    color:$textcolourinverse;
+    font-weight: bold;
+  }
+  p {
+    color:$textcolourinverse;
+  }
+
+
+  #firstbtn {
+      margin-top:40px;
+      color:white;
+    }
+
+
+}
 .about-section {
     height: auto;
     padding-top: 2%;
@@ -303,6 +336,40 @@ html {
   margin-top:2px;
 }
 
+.company-section {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom:3%;
+  text-align: center;
+  background: $introbg;
+  overflow:hidden;
+
+  h1{
+    color: $textcolour;
+    font-weight: bold;
+  }
+  h3 {
+    color: $textcolour;
+    font-weight: bold;
+  }
+  h4 {
+    color:$textcolour;
+    font-weight: bold;
+  }
+  p {
+    color:$textcolour;
+  }
+
+  a {
+    color:lightblue;
+  }
+
+  #firstbtn {
+    margin-top:40px;
+    color:white !important;
+  }
+
+}
 
 .technologies-section {
   height: auto;
@@ -315,12 +382,10 @@ html {
     text-align: center;
     margin-bottom: 5%;
     color:$textcolour;
-    font-family: $saira;
   }
 
   h3 {
     color:$textcolour;
-    font-family: $saira;
   }
 
   #contact-btn {
@@ -329,17 +394,14 @@ html {
 
   h5 {
     color:$textcolour;
-    font-family: $saira;
   }
 
   p {
     color:$textcolour;
-    font-family: $saira;
   }
 
   .list-group {
     font-size: 22px;
-    font-family: 'Saira', sans-serif;
   }
 
 }

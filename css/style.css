@@ -123,6 +123,28 @@ html {
     margin-top: 7px;
     margin-bottom: 10px; }
 
+.contact-page {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  background: #001335;
+  overflow: hidden; }
+  .contact-page h1 {
+    color: black;
+    font-weight: bold; }
+  .contact-page h3 {
+    color: black;
+    font-weight: bold; }
+  .contact-page h4 {
+    color: black;
+    font-weight: bold; }
+  .contact-page p {
+    color: black; }
+  .contact-page #firstbtn {
+    margin-top: 40px;
+    color: white; }
+
 .about-section {
   height: auto;
   padding-top: 2%;
@@ -193,6 +215,30 @@ html {
   text-decoration: underline;
   margin-top: 2px; }
 
+.company-section {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  background: #001335;
+  overflow: hidden; }
+  .company-section h1 {
+    color: white;
+    font-weight: bold; }
+  .company-section h3 {
+    color: white;
+    font-weight: bold; }
+  .company-section h4 {
+    color: white;
+    font-weight: bold; }
+  .company-section p {
+    color: white; }
+  .company-section a {
+    color: lightblue; }
+  .company-section #firstbtn {
+    margin-top: 40px;
+    color: white !important; }
+
 .technologies-section {
   height: auto;
   padding-top: 3%;
@@ -203,19 +249,14 @@ html {
   .technologies-section h1 {
     text-align: center;
     margin-bottom: 5%;
-    color: white;
-    font-family: "Saira", sans-serif; }
+    color: white; }
   .technologies-section h3 {
-    color: white;
-    font-family: "Saira", sans-serif; }
+    color: white; }
   .technologies-section #contact-btn {
     margin-top: 40px; }
   .technologies-section h5 {
-    color: white;
-    font-family: "Saira", sans-serif; }
+    color: white; }
   .technologies-section p {
-    color: white;
-    font-family: "Saira", sans-serif; }
+    color: white; }
   .technologies-section .list-group {
-    font-size: 22px;
-    font-family: 'Saira', sans-serif; }
+    font-size: 22px; }
