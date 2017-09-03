@@ -122,6 +122,10 @@ html {
     border-radius: 50%;
     margin-top: 7px;
     margin-bottom: 10px; }
+  .product-page .list_item_margin {
+    margin-left: 3%; }
+  .product-page .list_top_margin {
+    margin-top: 0.5%; }
 
 .contact-page {
   height: auto;
