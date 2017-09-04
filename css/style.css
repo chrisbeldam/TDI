@@ -16,6 +16,8 @@ html {
     overflow: hidden; }
   .top-nav-collapse {
     padding: 0; }
+  .landing-page h1 {
+    margin-top: 20px !important; }
   .intro-section {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -24,6 +26,9 @@ html {
     padding-top: 5%;
     padding-bottom: 5%;
     overflow: hidden; }
+    .about-section #first-btn {
+      margin-bottom: 10px;
+      margin-top: 10px; }
   .products-section {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -39,6 +44,9 @@ html {
     .products-section .automation-img {
       margin-top: 7px;
       margin-bottom: 10px; }
+    .products-section #first-btn {
+      margin-bottom: 10px !important;
+      margin-top: 10px !important; }
   .services-section {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -48,6 +56,9 @@ html {
     padding-bottom: 5%;
     overflow: hidden; } }
 
+.navbar-toggle {
+  margin-right: 28px; }
+
 .landing-page .intro-text {
   text-decoration: underline;
   font-weight: 200px; }
@@ -55,7 +66,7 @@ html {
 .landing-page #intro-name {
   -webkit-animation-delay: 1.5s;
   -webkit-animation-duration: 1s;
-  margin-top: 2%; }
+  margin-top: 5%; }
 
 .products-section {
   height: auto;
@@ -77,9 +88,10 @@ html {
     color: white; }
   .products-section a {
     color: lightblue; }
-  .products-section #firstbtn {
-    margin-top: 40px;
-    color: white !important; }
+  .products-section #first-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff; }
   .products-section .science-img {
     margin-top: 7px;
     margin-bottom: 10px; }
@@ -89,6 +101,25 @@ html {
   .products-section .automation-img {
     margin-top: 7px;
     margin-bottom: 10px; }
+
+.products-section-2 {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  background: #001335;
+  overflow: hidden; }
+  .products-section-2 h1 {
+    color: white;
+    font-weight: bold; }
+  .products-section-2 h3 {
+    color: white;
+    font-weight: bold; }
+  .products-section-2 h4 {
+    color: white;
+    font-weight: bold; }
+  .products-section-2 p {
+    color: white; }
 
 .product-page {
   height: auto;
@@ -128,28 +159,6 @@ html {
   .product-page .list_top_margin {
     margin-top: 0.5%; }
 
-.contact-page {
-  height: auto;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  text-align: center;
-  background: #001335;
-  overflow: hidden; }
-  .contact-page h1 {
-    color: black;
-    font-weight: bold; }
-  .contact-page h3 {
-    color: black;
-    font-weight: bold; }
-  .contact-page h4 {
-    color: black;
-    font-weight: bold; }
-  .contact-page p {
-    color: black; }
-  .contact-page #firstbtn {
-    margin-top: 40px;
-    color: white; }
-
 .about-section {
   height: auto;
   padding-top: 2%;
@@ -162,20 +171,9 @@ html {
     color: black; }
   .about-section p {
     color: black; }
-  .about-section #second-btn {
-    margin-top: 40px; }
-  .about-section .img {
-    border-radius: 50%;
-    margin-top: 7px;
-    margin-bottom: 10px; }
-  .about-section .img2 {
-    border-radius: 50%;
-    margin-top: 7px;
-    margin-bottom: 10px; }
-  .about-section .img3 {
-    border-radius: 50%;
-    margin-top: 7px;
-    margin-bottom: 10px; }
+  .about-section #first-btn {
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 .services-section {
   height: auto;
@@ -189,8 +187,9 @@ html {
     color: black; }
   .services-section p {
     color: black; }
-  .services-section #third-btn {
-    margin-top: 40px; }
+  .services-section #first-btn {
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 .contact-section {
   height: auto;
@@ -243,9 +242,6 @@ html {
     color: white; }
   .company-section a {
     color: lightblue; }
-  .company-section #firstbtn {
-    margin-top: 40px;
-    color: white !important; }
 
 .technologies-section {
   height: auto;
@@ -260,8 +256,6 @@ html {
     color: white; }
   .technologies-section h3 {
     color: white; }
-  .technologies-section #contact-btn {
-    margin-top: 40px; }
   .technologies-section h5 {
     color: white; }
   .technologies-section p {
