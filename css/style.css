@@ -29,7 +29,10 @@ html {
   .product-page h1 {
     font-size: 24px; }
   .product-page h3 {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 0 10px 10px; }
+  .product-page p {
+    margin: 0 10px 10px; }
   .product-page .science-img {
     height: 185px !important; }
   .product-page .business-img {
@@ -37,7 +40,9 @@ html {
   .product-page .automation-img {
     height: 185px !important; }
   .product-page .coming-soon {
-    height: 185px !important; } }
+    height: 185px !important; }
+  .products-section-2 h1 {
+    font-size: 28px; } }
 
 @media only screen and (min-width: 767px) {
   .navbar {
