@@ -1,10 +1,8 @@
 
-$contactbg: #001335;
-$aboutbg: #ffffff;
-$introbg: #001335;
-$servicesbg: #ffffff;
-$textcolour: white;
-$textcolourinverse: black;
+$whitebg: #ffffff;
+$bluebg: #001335;
+$whitetext: white;
+$blacktext: black;
 $saira:'Saira', sans-serif;
 
 body {
@@ -18,7 +16,51 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
+@media only screen and (min-width : 320px) {
+    body {
+      font-size:14px;
+    }
+
+    .landing-page {
+      #intro-name {
+        font-size:2.5em;
+        margin-top:14% !important;
+      } 
+    }
+    
+    .products-section {
+      .science-img {
+        height:185px !important;
+      }
+
+      .business-img {
+        height:185px !important;
+      }
+
+      .automation-img {
+        height:185px !important;
+      }
+    }
+    
+    .contact-section {
+
+      .contact-header {
+        font-size:40px !important;
+        padding:10px;
+      }
+
+      #contact-btn {
+        margin-bottom:10px;
+      }
+
+      h4 {
+        font-size:14px;
+      }
+    }
+}
+
+      
+@media only screen and (min-width:767px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -120,23 +162,23 @@ html {
     padding-top: 3%;
     padding-bottom:3%;
     text-align: center;
-    background: $introbg;
+    background: $bluebg;
     overflow:hidden;
 
     h1{
-      color: $textcolour;
+      color: $whitetext;
       font-weight: bold;
     }
     h3 {
-      color: $textcolour;
+      color: $whitetext;
       font-weight: bold;
     }
     h4 {
-      color:$textcolour;
+      color:$whitetext;
       font-weight: bold;
     }
     p {
-      color:$textcolour;
+      color:$whitetext;
     }
 
     a {
@@ -173,23 +215,23 @@ html {
   padding-top: 3%;
   padding-bottom:3%;
   text-align: center;
-  background: $introbg;
+  background: $bluebg;
   overflow:hidden;
 
   h1{
-    color: $textcolour;
+    color: $whitetext;
     font-weight: bold;
   }
   h3 {
-    color: $textcolour;
+    color: $whitetext;
     font-weight: bold;
   }
   h4 {
-    color:$textcolour;
+    color:$whitetext;
     font-weight: bold;
   }
   p {
-    color:$textcolour;
+    color:$whitetext;
   }
 }
 
@@ -198,23 +240,23 @@ html {
   padding-top: 3%;
   padding-bottom:3%;
   text-align: center;
-  background: $aboutbg;
+  background: $whitebg;
   overflow:hidden;
 
   h1{
-    color: $textcolourinverse;
+    color: $blacktext;
     font-weight: bold;
   }
   h3 {
-    color: $textcolourinverse;
+    color: $blacktext;
     font-weight: bold;
   }
   h4 {
-    color:$textcolourinverse;
+    color:$blacktext;
     font-weight: bold;
   }
   p {
-    color:$textcolourinverse;
+    color:$blacktext;
   }
 
 
@@ -249,18 +291,18 @@ html {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    background: $aboutbg;
+    background: $whitebg;
 
     h1{
-      color:$textcolourinverse;
+      color:$blacktext;
     }
 
     h2 {
-      color:$textcolourinverse;
+      color:$blacktext;
     }
 
     p {
-      color:$textcolourinverse;
+      color:$blacktext;
     }
 
     #first-btn {
@@ -274,18 +316,18 @@ html {
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
-    background: $servicesbg;
+    background: $whitebg;
 
     h1 {
-      color:$textcolourinverse;
+      color:$blacktext;
     }
 
     h2 {
-      color:$textcolourinverse;
+      color:$blacktext;
     }
 
     p {
-      color:$textcolourinverse;
+      color:$blacktext;
     }
     #first-btn {
       margin-top:20px;
@@ -302,15 +344,15 @@ html {
 
     h1 {
       text-align: center;
-      color:$textcolour;
+      color:$whitetext;
     }
 
     h3 {
-      color:$textcolour;
+      color:$whitetext;
     }
 
     h4 {
-      color:$textcolour;
+      color:$whitetext;
     }
 
     #contact-btn {
@@ -318,11 +360,11 @@ html {
     }
 
     h5 {
-      color:$textcolour;
+      color:$whitetext;
     }
 
     p {
-      color:$textcolour;
+      color:$whitetext;
     }
 
     .contact-header {
@@ -342,27 +384,27 @@ html {
   padding-top: 3%;
   padding-bottom:3%;
   text-align: center;
-  background: $introbg;
+  background: $bluebg;
   overflow:hidden;
 
   h1{
-    color: $textcolour;
+    color: $whitetext;
     font-weight: bold;
   }
   h2 {
-    color: $textcolour;
+    color: $whitetext;
     font-weight: bold;
   }
   h3 {
-    color: $textcolour;
+    color: $whitetext;
     font-weight: bold;
   }
   h4 {
-    color:$textcolour;
+    color:$whitetext;
     font-weight: bold;
   }
   p {
-    color:$textcolour;
+    color:$whitetext;
   }
 
   a {
@@ -381,19 +423,19 @@ html {
   h1 {
     text-align: center;
     margin-bottom: 5%;
-    color:$textcolour;
+    color:$whitetext;
   }
 
   h3 {
-    color:$textcolour;
+    color:$whitetext;
   }
 
   h5 {
-    color:$textcolour;
+    color:$whitetext;
   }
 
   p {
-    color:$textcolour;
+    color:$whitetext;
   }
 
   .list-group {
