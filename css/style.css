@@ -314,7 +314,8 @@ html {
   .technologies-section h1 {
     text-align: center;
     margin-bottom: 5%;
-    color: white; }
+    color: white;
+    font-size: 36px; }
   .technologies-section h3 {
     color: white; }
   .technologies-section h5 {
