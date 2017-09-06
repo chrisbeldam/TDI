@@ -8,13 +8,14 @@ $saira:'Saira', sans-serif;
 body {
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 html {
     width: 100%;
     height: 100%;
 }
+
 // Small Mobile Size
 @media only screen and (min-width : 320px) {
     body {
@@ -23,8 +24,11 @@ html {
 
     .landing-page {
       #intro-name {
-        font-size:2.5em;
+        font-size:2.0em;
         padding:16px;
+      }
+      .intro-message {
+        padding-bottom:9%;
       }
     }
 
@@ -85,9 +89,53 @@ html {
       }
     }
 
+    .products-section {
+      h1 {
+        font-size:32px;
+      }
+    }
+
     .products-section-2 {
       h1 {
         font-size:28px;
+      }
+    }
+
+    .company-section {
+      h1 {
+        font-size:32px;
+      }
+      h2 {
+        font-size:28px;
+      }
+    }
+    .services-section {
+      h1 {
+        font-size:32px;
+      }
+    }
+
+    .about-section {
+      .silhouette{
+        height:85px !important;
+      }
+      h1 {
+        font-size:32px;
+      }
+      h2 {
+        font-size:27px;
+      }
+      h3 {
+        font-size: 21px;
+      }
+    }
+
+    .technologies-section {
+      h1 {
+        font-size:32px;
+      }
+      .list-group-item {
+        font-size:20px;
       }
     }
 }
