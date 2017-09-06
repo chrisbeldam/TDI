@@ -125,7 +125,12 @@ html {
 .landing-page #intro-name {
   -webkit-animation-delay: 1.5s;
   -webkit-animation-duration: 1s;
-  margin-top: 5%; }
+  margin-top: 5%;
+  font-size: 42px; }
+
+.landing-page .intro-message {
+  padding-top: 10%;
+  padding-bottom: 4%; }
 
 .products-section {
   height: auto;
