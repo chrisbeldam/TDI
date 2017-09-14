@@ -1,8 +1,9 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var cssnano = require('gulp-cssnano');
-var gulpSequence = require('gulp-sequence');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const uglify = require('gulp-uglify');
+const cssnano = require('gulp-cssnano');
+const gulpSequence = require('gulp-sequence');
+const gulpImg = require('gulp-imagemin')
 
 //Takes the sass style sheet and converts it into a css file in the correct folder.
 gulp.task('styles', function() {
@@ -18,18 +19,25 @@ gulp.task('default',function() {
 
 
 //Compresses the JS Files into a folder called MinJS
-gulp.task('compress', function(){
+gulp.task('compress', () =>
    gulp.src('js/*.js')
   .pipe(uglify())
   .pipe(gulp.dest('./MinJS/'))
-});
+);
 
 //Compresses the CSS Files into a folder called cssnano
-gulp.task('cssnano', function(){
-  return gulp.src('./css/*.css')
+gulp.task('cssnano', () =>
+    gulp.src('./css/*.css')
   .pipe(cssnano())
   .pipe(gulp.dest('./cssnano/'))
-});
+);
+
+//Compress Img Files - ES6 Syntax
+gulp.task('gulpImg', () =>
+    gulp.src('img/*')
+    .pipe(gulpImg())
+    .pipe(gulp.dest('./imgmin/'))
+);
 
 //Run all of the tasks in order
-gulp.task('build', gulpSequence('styles', 'cssnano', 'compress'));
+gulp.task('build', gulpSequence('styles', 'cssnano', 'compress', 'gulpImg'));
